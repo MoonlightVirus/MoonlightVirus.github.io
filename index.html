@@ -1,1 +1,50 @@
-Hello World
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dear Tala</title>
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <link rel="stylesheet" href="Style.css">
+    </head>
+    <body>
+    <div class="Loader">
+        <img src="star.png" class="LoadingStar" alt="catch me if you can!">
+        <img src="loading.png" class="Loading" alt="catch me if you can!">
+    </div>
+    <div class="Header">
+        <img src="DearTala.png" alt="Dear Tala this is for you!">
+        <h4>This is made just for you Tal. </h4>
+        <img src="star.png" class="TopStar1" alt="catch me if you can!">
+        <img src="star.png" class="TopStar" alt="catch me if you can!">
+        <img src="star.png" class="TopStar2" alt="catch me if you can!">
+    </div>
+
+    <div class="Body">
+        <div class="Y2024">
+            <a href="Y2024.html">2024</a>
+        </div>
+    </div>
+    
+    <div class="Footer">
+        <p>Dear Tala. This is a website I made just for you. I will constantly update this website and keep our memories and everything I want to show you in here. It's some sort of 
+            archive. I will improve this just like my love for you. So, thank you for everthing my dear. I love you.
+        </p>
+        <img src="star.png" class="FootStar" alt="catch me if you can!">
+    </div>
+
+    <script>
+        const loader = document.querySelector(".Loader");
+        window.onload = function(){
+          setTimeout(function(){
+            loader.style.opacity = "0";
+            setTimeout(function(){
+              loader.style.display = "none";
+            }, 500);
+          },1500);
+        }
+     </script>
+    </body>
+</html>
+    
